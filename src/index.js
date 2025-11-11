@@ -16,19 +16,19 @@ async function start() {
 
     // Connect to MongoDB
     await mongoose.connect(MONGODB_URI);
-    console.log("✅ Connected to MongoDB");
-    console.log("📘 Database Name:", mongoose.connection.name);
+    console.log("Connected to MongoDB");
+    console.log("Database Name:", mongoose.connection.name);
 
     // ⬇️ Serve Swagger UI at /docs
     app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
-    console.log(`📄 Swagger docs at http://localhost:${PORT}/docs`);
+    console.log(`Swagger docs at http://localhost:${PORT}/docs`);
 
     // Start the Express server
     app.listen(PORT, () => {
-      console.log(`🚀 Server running on http://localhost:${PORT}`);
+      console.log(`Server running on http://localhost:${PORT}`);
     });
   } catch (err) {
-    console.error("❌ Failed to start server:", err.message);
+    console.error("Failed to start server:", err.message);
     process.exit(1); // Exit the app if there's an error
   }
 }
