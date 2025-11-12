@@ -142,6 +142,13 @@
 #### 10. JSDoc blocks inside the weatherRoutes.js file - this is what sets up the /docs UI(Swagger). Swagger reads these comments to build the interactive UI. Under the "Code Testing" section I have added a screenshot of it being tested using the GET method - only added one snippet to avoid excessive screenshots
 <img width="403" height="85" alt="image" src="https://github.com/user-attachments/assets/c39ea0f5-d418-4731-929e-0c794bd02d6e" />
 
+----
+
+### Simple Demo 
+https://github.com/user-attachments/assets/04b70223-1dd0-47ae-badb-25a8d66cd40b
+
+
+
 
 
 
