@@ -52,5 +52,20 @@
 ### Using the Swagger Document - Testing Out the database/api 
 <img width="1427" height="851" alt="Screenshot 2025-11-11 004400" src="https://github.com/user-attachments/assets/59902a53-c569-4405-88a7-a3abe1d6fa7c" />
 
+### Code Snippets and Explanations: 
+
+#### 1. Package.JSON file - dependencies that needs to be installed for the project 
+<img width="783" height="780" alt="image" src="https://github.com/user-attachments/assets/5360edc1-354e-4038-8875-769a889d83de" />
+
+#### 2. .env file - this consists of the api key and mongodb url and is stored in .gitignore so it does not get committed with the code. Everyone has their own .env file. 
+
+#### 3. Index.js under the src folder - connects to MongoDB, starts Express server, and sets up Swagger documentation 
+<img width="692" height="146" alt="image" src="https://github.com/user-attachments/assets/4eeb5d9c-0961-4e08-9681-ce8176fd7a0b" />
+<img width="570" height="128" alt="image" src="https://github.com/user-attachments/assets/2955fb82-4963-43d7-a2e6-6e55164735a6" />
+
+#### 4. App.js under src folder - sets up the routes
+<img width="820" height="681" alt="image" src="https://github.com/user-attachments/assets/27e68e64-42b7-4f54-975b-fbd060940fb0" />
+
+
 
 
